@@ -1,0 +1,22 @@
+.card{
+    background-color: rgb(14, 14, 32);
+    width: calc(100% - 10px);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.lil_img{
+    border-radius: 10px;
+    width: 100%;
+    aspect-ratio: 1/1;  /*mi permette di definire l'altezza in modo automatico in base alla width affinchè sia un quadrato 1:1*/
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lil_name{
+    font-size: 0.9rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+}
