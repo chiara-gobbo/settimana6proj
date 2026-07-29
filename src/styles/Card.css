@@ -1,16 +1,16 @@
 .card{
-    background-color: rgb(14, 14, 32);
-    width: calc((100% - 10px) /2);
+    background-color: rgba(82, 82, 112, 0.548);
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .lil_img{
-    border-radius: 10px;
+    border-radius: 8px;
     width: 100%;
     aspect-ratio: 1/1;  /*mi permette di definire l'altezza in modo automatico in base alla width affinchè sia un quadrato 1:1*/
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .lil_name{

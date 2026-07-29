@@ -1,0 +1,27 @@
+.title{
+    color: goldenrod;
+    text-align: center;
+    margin: 0;
+}
+
+.fin_container{
+    padding: 20px;
+    background-color: rgb(26, 26, 44);
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.final_box{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 7px;
+    padding: 20px;
+}
+
+.div{
+    color: white;
+    background-color: rgba(82, 82, 112, 0.548);
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 0.9rem;
+}

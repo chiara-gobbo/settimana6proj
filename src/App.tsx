@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import './styles/MediaQuery.css'
 
 import data from './data'
 
@@ -7,9 +8,9 @@ import type { Dev } from './types/Dev'
 import type { Skill } from './types/Skill'
 
 import Card from './functions/Card'
+import SelectCard from './functions/SelectCard'
 
 function App() {
-  
 
   return (
     <>
@@ -19,16 +20,17 @@ function App() {
       </header>
       <body>
         <section className='hero'>
-            <div>
-              <button>Seleziona Dev A</button>
-              <button>Seleziona Dev B</button>
+            <div className='btns'>
+              <button className='btnA'>Seleziona Dev A</button>
+              <button className='btnB'>Seleziona Dev B</button>
             </div>
             <section className='cards'>
               {data.map((dev)=>(
-                  <Card dev={dev}/>
+                  <Card dev={dev} key={dev.id}/>
               ))}
             </section>
         </section>
+        <SelectCard/>
       </body>
     </>
   )

@@ -2,14 +2,14 @@ import type { Skill } from "./types/Skill";
 import type { Dev } from "./types/Dev";
 
 const data:Dev[]=[
-    {id: 1, imageUrl: 'https://i.pravatar.cc/150?img=68', firstname: 'Mario', lastname: 'Rossi', birthDate: '1994-07-28', gender: 'm', skills: [
+    {id: 1, imageUrl: 'https://i.pravatar.cc/150?img=13', firstname: 'Mario', lastname: 'Rossi', birthDate: '1994-07-28', gender: 'm', skills: [
         {label: 'HTML/CSS', type: 'front-end', value: 88},
         {label: 'JavaScript', type: 'front-end', value: 78},
         {label: 'React', type: 'front-end', value: 90},
         {label: 'Node.js', type: 'back-end', value: 98},
         {label: 'Algorithms', type: 'back-end', value: 92},
     ]},
-    {id: 2, imageUrl: 'https://i.pravatar.cc/150?img=44', firstname: 'Lara', lastname: 'Anderson', birthDate: '1999-02-23', gender: 'f', skills: [
+    {id: 2, imageUrl: 'https://i.pravatar.cc/150?img=36', firstname: 'Lara', lastname: 'Anderson', birthDate: '1999-02-23', gender: 'f', skills: [
         {label: 'HTML/CSS', type: 'front-end', value: 90},
         {label: 'JavaScript', type: 'front-end', value: 86},
         {label: 'React', type: 'front-end', value: 90},
