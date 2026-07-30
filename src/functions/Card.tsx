@@ -1,6 +1,4 @@
-import data from "../data";
 import type { Dev } from "../types/Dev";
-import type { Skill } from "../types/Skill";
 
 import '../styles/Card.css'
 

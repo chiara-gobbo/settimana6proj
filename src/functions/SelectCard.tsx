@@ -1,8 +1,6 @@
-import { useState } from "react";
 import data from "../data";
 import Info from "./Info";
 import Statistics from "./Statistics";
-import type { Dev } from "../types/Dev";
 
 import '../styles/SelectCard.css'
 import '../styles/MediaQuery.css'

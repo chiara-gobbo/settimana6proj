@@ -1,4 +1,3 @@
-import type { Skill } from "./types/Skill";
 import type { Dev } from "./types/Dev";
 
 const data:Dev[]=[
