@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    padding-top: 0;
+}
+
+.rect{
+    background-color: rgba(82, 82, 112, 0.548);
+    border-radius: 7px;
+    width: 100%;
+}
+
+.horiz{
+    display: flex;
+    align-items: end;
+}
+
+.subj_name{
+    font-weight: bold;
+    color: white;
+    font-size: 0.9rem;
+    padding-left: 7px;
+    padding-top: 5px;
+}
+
+.subj_type{
+    color: grey;
+    font-size: 0.7rem;
+    padding-left: 10px;
+}
+
+.spacebetween{
+    justify-content: space-between;
+    padding-right: 7px;
+}
+
+.bar_box{
+    padding: 5px;
+    padding-bottom: 7px;
+}
+
+.longBar{
+    height: 7px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(82, 82, 112, 0.548);
+}
+
+.bar{
+    height: 7px;
+    border-radius: 10px;
+}
