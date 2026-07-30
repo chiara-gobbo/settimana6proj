@@ -8,25 +8,9 @@ import '../styles/SelectCard.css'
 import '../styles/MediaQuery.css'
 
 
-function SelectCard() {
-    const [activeBtn, setActiveBtn] = useState<'A' | 'B'>('A')
-    const [cardA, setCardA] = useState<number>(data[0].id)
-    const [cardB, setCardB] = useState<number>(data[1].id)
-    const [hover, setHover] = useState()
-
-    const selectDev = (id: number) => {
-        if (activeBtn == 'A') {
-            setCardA(id)
-            setActiveBtn('B')
-        }
-        else {
-            setCardB(id)
-            setActiveBtn('A')
-        }
-    }
-
-    const devA = data.find((dev) => dev.id == cardA)!
-    const devB = data.find((dev) => dev.id == cardB)!
+function SelectCard({idA, idB}:{idA:number, idB:number}) {
+    const devA = data.find((dev) => dev.id == idA)!
+    const devB = data.find((dev) => dev.id == idB)!
 
     return (
         <>

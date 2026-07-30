@@ -6,13 +6,6 @@
     .cards{
         grid-template-columns: repeat(3, 1fr);
     }
-    .scores{
-        flex-direction: row;
-    }
-    .score{
-        width: auto;
-        flex: 1;
-    }
 }
 
 
@@ -27,18 +20,5 @@
     }
     .cards{
         grid-template-columns: repeat(6, 1fr);
-    }
-    .scores{
-        flex-direction: row;
-    }
-    .score{
-        width: auto;
-        flex-grow: 1;
-    }
-    .box{
-        flex-direction: row;
-    }
-    .final_box{
-        grid-template-columns: repeat(2, 1fr);
     }
 }

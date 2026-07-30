@@ -21,16 +21,15 @@ function Statistics({devA, devB}:{devA:Dev, devB:Dev}){
 
                     return(
                         <div>
-                            <div className="div" style={{borderLeft:'4px solid #973197'}}>Se vuoi il migliore in {skill.label}, scegli {(skill.value>skillB?.value)? `${devA.firstname} ${devA.lastname}` : `${devB.firstname} ${devB.lastname}`}.</div>
+                            <div className="div" style={{borderLeft:'4px solid #973197'}}>Se vuoi il migliore in {skill.label}, scegli {(skill.value>skillB?.value)? <span className="name_blue">{devA.firstname} {devA.lastname}</span> : <span className="name_red">{devB.firstname} {devB.lastname}</span>}.</div>
                         </div>
                     )
                 })}
-                <div className="div" style={{borderLeft:'4px solid #2ead08'}}>Per il front-end, scegli {(AavgFE>BavgFE)? `${devA.firstname} ${devA.lastname}` : `${devB.firstname} ${devB.lastname}`}.</div>
+                <div className="div" style={{borderLeft:'4px solid #2ead08'}}>Per il front-end, scegli {(AavgFE>BavgFE)? <span className="name_blue">{devA.firstname} {devA.lastname}</span> : <span className="name_red">{devB.firstname} {devB.lastname}</span>}.</div>
 
-                <div className="div" style={{borderLeft:'4px solid #2ead08'}}>Per il back-end, scegli {(AavgBE>BavgBE)? `${devA.firstname} ${devA.lastname}` : `${devB.firstname} ${devB.lastname}`}.</div>
-
-                <div className="div" style={{borderLeft:'4px solid goldenrod', fontWeight:'bold', backgroundColor:'#3b3939c2'}}>Complessivamente, scegli {(Aoverall>Boverall)? `${devA.firstname} ${devA.lastname}` : `${devB.firstname} ${devB.lastname}`}.</div>
+                <div className="div" style={{borderLeft:'4px solid #2ead08'}}>Per il back-end, scegli {(AavgBE>BavgBE)? <span className="name_blue">{devA.firstname} {devA.lastname}</span> : <span className="name_red">{devB.firstname} {devB.lastname}</span>}.</div>
             </div>
+            <div className="div" style={{borderLeft:'4px solid goldenrod', fontWeight:'bold', backgroundColor:'#3b3939c2', margin: '0 20px'}}>Complessivamente, scegli {(Aoverall>Boverall)? <span className="name_blue">{devA.firstname} {devA.lastname}</span> : <span className="name_red">{devB.firstname} {devB.lastname}</span>}.</div>
         </section>
     )
 }

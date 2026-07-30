@@ -25,3 +25,9 @@
     padding: 10px;
     font-size: 0.9rem;
 }
+
+@media (min-width: 901px){
+    .final_box{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -46,6 +46,16 @@ header div{
   width: 100%;
 }
 
+.btnA.activeb{
+  border: 2px solid rgb(16, 211, 211);
+  color: rgb(16, 211, 211);
+}
+
+.btnB.activered{
+  color: rgb(230, 26, 53);
+  border: 2px solid rgb(230, 26, 53);
+}
+
 .hero button{
   background-color: rgb(14, 14, 32, 0.692);
   color: white;

@@ -76,3 +76,22 @@
     font-weight: bold;
     padding-top: 5px;
 }
+
+@media (min-width: 600px){
+    .scores{
+        flex-direction: row;
+    }
+    .score{
+        width: auto;
+        flex: 1;
+    }
+}
+@media (min-width: 900px){
+    .scores{
+        flex-direction: row;
+    }
+    .score{
+        width: auto;
+        flex: 1;
+    }
+}

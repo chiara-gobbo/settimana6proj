@@ -4,6 +4,26 @@
     padding: 10px;
 }
 
+.selectedA {
+    border: 3px solid  rgb(16, 211, 211);
+    box-shadow: 0 0 15px rgb(16, 211, 211);
+}
+
+.selectedB {
+    border: 3px solid  rgb(230, 26, 53);
+    box-shadow: 0 0 15px  rgb(230, 26, 53);
+}
+
+.name_blue{
+  color: rgb(16, 211, 211);
+  font-weight: bold;
+}
+
+.name_red{
+    color: rgb(230, 26, 53);
+    font-weight: bold;
+}
+
 .lil_img{
     border-radius: 8px;
     width: 100%;
@@ -11,6 +31,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .lil_name{
@@ -19,4 +40,27 @@
     font-weight: bold;
     text-align: center;
     padding-top: 5px;
+}
+
+.badge{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badgeA{
+    background-color: rgb(16, 211, 211);
+}
+
+.badgeB{
+    background-color: rgb(230, 26, 53);
 }

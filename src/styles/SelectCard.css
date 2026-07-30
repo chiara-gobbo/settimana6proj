@@ -1,13 +1,19 @@
-.box{
+.box {
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
 }
 
-.vs{
+.vs {
     font-size: xx-large;
     font-style: italic;
     color: goldenrod;
     font-weight: bold;
+}
+
+@media (min-width: 901px) {
+    .box {
+        flex-direction: row;
+    }
 }

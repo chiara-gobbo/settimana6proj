@@ -2,7 +2,6 @@ import type { Dev } from "../types/Dev";
 import Average from "./Average";
 import Subj from "./Subj";
 import '../styles/Info.css'
-import '../styles/MediaQuery.css'
 
 function Info({ dev, letter }: { dev: Dev; letter: string }) {
     const genderDev = (g: string): string => {
